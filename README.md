@@ -47,3 +47,18 @@
 * “P<i>pathname</i>” Put a file. It is an error for the client to issue this command unless a data connection has been previously established. The server attempts to open the last component of _pathname_ for writing. It is an error if the file already exists or cannot be opened. The server then reads data from the data connection and writes it to the opened file. The file is closed and the command is complete when the server reads an EOF from the data connection, implying that the client has completed the transfer and has closed the data connection.
 * “Q” Quit. This command causes the server (child) process to exit normally. Before exiting, the server will acknowledge the command to the client.
 8. Each command is logged by the server, along with the arguments and its success or failure, to standard output.
+# Screenshots
+## Getting Server IP
+![Alt text](/screenshots/server_1.png?raw=true "Server 1")
+## Client Side Example
+![Alt text](/screenshots/client_1.png?raw=true "Client 1")
+![Alt text](/screenshots/client_2.png?raw=true "Client 2")
+![Alt text](/screenshots/client_3.png?raw=true "Client 3")
+![Alt text](/screenshots/client_4.png?raw=true "Client 4")
+![Alt text](/screenshots/client_5.png?raw=true "Client 5")
+![Alt text](/screenshots/client_6.png?raw=true "Client 6")
+![Alt text](/screenshots/client_7.png?raw=true "Client 7")
+## Server Side Example
+![Alt text](/screenshots/server_2.png?raw=true "Server 2")
+![Alt text](/screenshots/server_3.png?raw=true "Server 3")
+![Alt text](/screenshots/server_4.png?raw=true "Server 4")
